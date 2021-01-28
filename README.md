@@ -131,16 +131,6 @@ them
 - **Node** 10.16.3
 - **Angular** 7.1.4
 
-#### Development Environments
-While developing this system, we used the following IDEs/tools:
-* **Visual Studio Code** 1.24.1
-    * *Shell* 1.7.12
-    * *Node* 7.9.0
-* **IntelliJ IDEA** 2018.1.3 (Ultimate Edition)  
-  * *JRE* 1.8.0_152-release-1136-b38 amd64  
-  * *JVM* OpenJDK 64-Bit Server VM by JetBrains s.r.o  
-* **Windows 10 10.0** and **macOS Mojave 10.14**
-
 ### Start database server
 First, make sure that the MongoDB server is running on port `27017` (standard port for MongoDB) . Start the server by running the following command:  
 ```bash
@@ -177,9 +167,6 @@ or simply via
 
 The landing page of the skywalker can be accessed on a web browser at  
   > http://localhost:4200/
-
-
-![skywalker](https://github.com/iaas-splab/skywalker-prototype/blob/master/media/skywalker_landing_page.PNG)
 
 ## General notes
 #### Preventing live-reload in angular
