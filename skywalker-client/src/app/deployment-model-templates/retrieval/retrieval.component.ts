@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import {NgForm} from "@angular/forms";
-import {TemplateService} from "../template.service";
+import {TemplateService} from "../template.service"
 import {Router} from "@angular/router";
 import {SnackbarService} from "../../services/snackbar.service";
 
